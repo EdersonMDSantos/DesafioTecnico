@@ -1,7 +1,20 @@
-# Desafio Técnico - QA Sênior (Softplan)
+# Desafio Técnico - QA Sênior (Softplan)  
 
-Projeto de automação de testes para o ServeRest (API + UI).
-Automação de testes desenvolvida para o desafio técnico da vaga de QA Sênior na Softplan. O projeto cobre testes de API e UI da aplicação ServeRest utilizando Cypress, com foco em arquitetura limpa, gerenciamento de dados, validações robustas e boas práticas de automação. Inclui cenários de sucesso e falha, testes de login, fluxo de compra e gerenciamento de usuários e produtos.
+Projeto de automação de testes para a aplicação **ServeRest** (API + UI).  
+Desenvolvido para o desafio técnico da vaga de **QA Sênior** na Softplan.  
+
+A automação foi criada utilizando **Cypress**, cobrindo cenários de API e interface gráfica (UI), com foco em:  
+- Arquitetura limpa e organizada  
+- Gerenciamento de dados de teste  
+- Validações robustas  
+- Boas práticas de automação  
+
+Inclui testes para:  
+- Autenticação (Login)  
+- Cadastro e gerenciamento de usuários  
+- Cadastro e gerenciamento de produtos  
+- Fluxo de compra de produto  
+- Cenários de sucesso e falha 
 
 ## Tecnologias
 - Cypress: v22.17.0
@@ -11,21 +24,39 @@ Automação de testes desenvolvida para o desafio técnico da vaga de QA Sênior
 ## Estrutura
 ```
 cypress/
-  e2e/
-    api/
-      usuarios.cy.js
-      produtos.cy.js
-    ui/
-      login.cy.js
-      compraProduto.cy.js
+    e2e/
+      api/
+       usuarios.cy.js # Testes da API de usuários
+       produtos.cy.js # Testes da API de produtos
+      ui/
+       login.cy.js # Teste de login via UI
+       compraProduto.cy.js # Fluxo de compra via UI
+      cypress.config.js # Configuração do Cypress
+      package.json # Dependências e scripts
 ```
 
-## Como executar
-1. Instale dependências:
+
+## 🚀 Como executar os testes  
+
+### 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/EdersonMDSantos/DesafioTecnico.git
+cd DesafioTecnico
+2️⃣ Instalar as dependências
    ```bash
    npm install
    ```
-2. Execute os testes:
+3️⃣ Executar os testes no modo interativo (GUI)
    ```bash
    npx cypress open
    ```
+4️⃣ Executar os testes no modo headless (linha de comando)
+  ```bash
+   npx cypress run
+   ```
+5️⃣ Executar apenas um arquivo de teste específico
+  ```bash
+   npx cypress run --spec "cypress/e2e/api/usuarios.cy.js"
+   ```
+
+
