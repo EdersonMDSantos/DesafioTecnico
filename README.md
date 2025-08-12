@@ -42,9 +42,9 @@ cypress/
 ```bash
 git clone https://github.com/EdersonMDSantos/DesafioTecnico.git
 cd DesafioTecnico
-
+   ```
 2️⃣ Instalar as dependências
-   ```bash
+ ```bash
    npm install
    ```
 3️⃣ Executar os testes no modo interativo (GUI)
