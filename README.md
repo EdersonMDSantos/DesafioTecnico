@@ -38,10 +38,11 @@ cypress/
 
 ## 🚀 Como executar os testes  
 
-### 1️⃣ Clonar o repositório
+1️⃣ Clonar o repositório
 ```bash
 git clone https://github.com/EdersonMDSantos/DesafioTecnico.git
 cd DesafioTecnico
+
 2️⃣ Instalar as dependências
    ```bash
    npm install
