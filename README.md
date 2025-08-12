@@ -1,6 +1,7 @@
 # Desafio Técnico - QA Sênior (Softplan)
 
 Projeto de automação de testes para o ServeRest (API + UI).
+Automação de testes desenvolvida para o desafio técnico da vaga de QA Sênior na Softplan. O projeto cobre testes de API e UI da aplicação ServeRest utilizando Cypress, com foco em arquitetura limpa, gerenciamento de dados, validações robustas e boas práticas de automação. Inclui cenários de sucesso e falha, testes de login, fluxo de compra e gerenciamento de usuários e produtos.
 
 ## Tecnologias
 - Cypress: v22.17.0
