@@ -1,0 +1,15 @@
+{
+  "name": "desafio-softplan-qa",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes para o ServeRest (API + UI).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.5.4"
+  }
+}
